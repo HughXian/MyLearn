@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shader_2.md",
+                "file": "shader_2/shader_2.md",
                 "mode": "source",
                 "source": false
               },
@@ -198,10 +198,10 @@
       "bases:新建数据库": false
     }
   },
-  "active": "4296345f698a51e9",
+  "active": "7b487e21d9d28b9a",
   "lastOpenFiles": [
     "shader_1/shader_1.md",
-    "shader_2.md",
+    "shader_2/shader_2.md",
     "shader_2",
     "shader_1/images/Pasted image 20260728145158.png",
     "shader_1",
