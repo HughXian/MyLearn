@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5
   },
   "right": {
     "id": "a975c99b6e4b16c0",
@@ -185,11 +185,11 @@
   },
   "active": "314b1b88dfdf6ed8",
   "lastOpenFiles": [
+    "README.md",
+    "learn_opengl/01_入门.md",
     "learn_shader/shader_2/shader_2.md",
     "learn_shader/shader_1/shader_1.md",
-    "learn_opengl/01_入门.md",
     "learn_opengl",
-    "README.md",
     "learn_shader/shader_2/images",
     "learn_shader/shader_2/images/Pasted image 20260729104629.png"
   ]
