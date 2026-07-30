@@ -69,11 +69,10 @@
 ---
 5、平移变换与齐次坐标
 	--因为平移变换的特殊性，从而出现了==齐次坐标==；
-> [!tip] 平移不属于**线性变换**
-> 在没有齐次坐标的情况下，平移变换是这样计算；
+> [!tip] 平移不属于线性变换
+> 在没有齐次坐标的情况下，平移变换是这样计算：
 > $$
-> \begin{bmatrix}x'\\y'\end{bmatrix}
-> =
+> \begin{bmatrix}x'\\y'\end{bmatrix}=
 > \begin{bmatrix}a & b\\c & d\end{bmatrix}
 > \begin{bmatrix}x\\y\end{bmatrix}
 > +
@@ -89,16 +88,14 @@
 >
 > ### 平移变换矩阵（3×3）
 > $$
-> \begin{bmatrix} x' \\ y' \\ w' \end{bmatrix}
-> =
+> \begin{bmatrix} x' \\ y' \\ w' \end{bmatrix}=
 > \begin{bmatrix}
 > 1 & 0 & t_x \\
 > 0 & 1 & t_y \\
 > 0 & 0 & 1
 > \end{bmatrix}
 > \cdot
-> \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}
-> =
+> \begin{bmatrix} x \\ y \\ 1 \end{bmatrix}=
 > \begin{bmatrix} x+t_x \\ y+t_y \\ 1 \end{bmatrix}
 > $$
 >
@@ -148,7 +145,7 @@
 > > $$
 > > (x_1+x_2,\ y_1+y_2,\ 2) \implies \left(\frac{x_1+x_2}{2},\ \frac{y_1+y_2}{2},\ 1\right)
 > > $$
-> > 归一化后几何意义：两点连线中点。
+> > 归一化后几何意义：*两点连线中点*。
 > > 注意：基础向量几何中**点 + 点不存在原生运算定义**，中点是齐次归一化衍生出的解释，不能直接当作通用规则使用。
 
 ---
