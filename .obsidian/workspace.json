@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "dccee10538d6d561",
+        "id": "66b40618e4280e12",
         "type": "tabs",
         "children": [
           {
-            "id": "a0bf265b757c1949",
+            "id": "bd1a05580c5ac9ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "learn_shader/shader_3/shader_3.md",
-                "mode": "source",
-                "source": false
+                "file": "learn_shader/shader_3/images/Pasted image 20260731152023.png"
               },
-              "icon": "lucide-file",
-              "title": "shader_3"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260731152023"
             }
           }
         ]
@@ -41,7 +39,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -183,14 +183,18 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a0bf265b757c1949",
+  "active": "314b1b88dfdf6ed8",
   "lastOpenFiles": [
+    "learn_shader/shader_3/shader_3.md",
+    "learn_shader/shader_4/shader_4.md",
+    "learn_shader/shader_3/images/Pasted image 20260731152439.png",
+    "learn_shader/shader_3/images/Pasted image 20260731152023.png",
+    "learn_shader/shader_4",
     "learn_shader/shader_3/images",
     "learn_shader/shader_3/images/Pasted image 20260730160350.png",
     "learn_shader/shader_3/images/Pasted image 20260730153849.png",
     "learn_shader/shader_3/images/Pasted image 20260730110834.png",
     "learn_opengl/01_入门.md",
-    "learn_shader/shader_3/shader_3.md",
     "learn_shader/shader_3",
     "learn_shader/shader_2/shader_2.md",
     "learn_shader/shader_1/shader_1.md",
