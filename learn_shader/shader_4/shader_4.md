@@ -5,7 +5,7 @@
 
 ---
 2、投影变换（Projection transformation）
-	投影分为：正交投影（Orthographic projection）、透视投影（Perspective projection）；
+	投影分为：==正交投影==（Orthographic projection）、==透视投影==（Perspective projection）；
 
 ---
 3、正交投影
