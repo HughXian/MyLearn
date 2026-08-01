@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "66b40618e4280e12",
+        "id": "34e317725b0ca19a",
         "type": "tabs",
         "children": [
           {
-            "id": "bd1a05580c5ac9ec",
+            "id": "8b556d618eb1cfc8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "learn_shader/shader_3/images/Pasted image 20260731152023.png"
+                "file": "learn_shader/shader_4/shader_4.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260731152023"
+              "icon": "lucide-file",
+              "title": "shader_4"
             }
           }
         ]
@@ -183,12 +185,12 @@
       "bases:新建数据库": false
     }
   },
-  "active": "314b1b88dfdf6ed8",
+  "active": "8b556d618eb1cfc8",
   "lastOpenFiles": [
+    "learn_shader/shader_3/images/Pasted image 20260731152023.png",
     "learn_shader/shader_3/shader_3.md",
     "learn_shader/shader_4/shader_4.md",
     "learn_shader/shader_3/images/Pasted image 20260731152439.png",
-    "learn_shader/shader_3/images/Pasted image 20260731152023.png",
     "learn_shader/shader_4",
     "learn_shader/shader_3/images",
     "learn_shader/shader_3/images/Pasted image 20260730160350.png",
