@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "34e317725b0ca19a",
+        "id": "7b70a9d5c719b439",
         "type": "tabs",
         "children": [
           {
-            "id": "8b556d618eb1cfc8",
+            "id": "71d0a0b8940ab0ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,9 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -185,7 +183,7 @@
       "bases:新建数据库": false
     }
   },
-  "active": "8b556d618eb1cfc8",
+  "active": "71d0a0b8940ab0ec",
   "lastOpenFiles": [
     "learn_shader/shader_3/images/Pasted image 20260731152023.png",
     "learn_shader/shader_3/shader_3.md",
