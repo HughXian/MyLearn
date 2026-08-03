@@ -10,6 +10,7 @@
 
 ---
 3、正交投影
+	--以下所有目的：为了得出正交投影的矩阵，以便运算；
 	--首先，对于正交投影来说，视口是个$[l,r][b,t][f,n]$的长方体；
 	要让该长方体变成$[-1,1]^3$的正方体（NDC，GPU裁剪器只识别**NDC**）：
 		先将长方体的中心平移到坐标原点；
@@ -68,14 +69,16 @@
 
 ---
 4、透视投影
+	--以下的所有目的：为了得出透视投影的矩阵，以便运算；
 	--有近大远小的现象；
 	--先看下图：
 		在Frustum这个几何体中，小的平面就是 屏幕，大的平面就是 FOV；
 ![[Pasted image 20260802112307.png]]
 
-> [!tip] 为什么要把 Frustum这样的锥体几何体 变为 Cuboid这样的方体
-> 1. 因为：GPU硬件（GPU裁剪器只能处理 方体（NDC））
->2. 具体操作： 将Frustum远平面及远平面到近平面之间的所有平面挤压到近平面大小，
+> [!tip] Frustum这样的锥体几何体 变为 Cuboid这样的方体
+> 1. 因为这样可以得出 透视投影的矩阵；
+> 2. 注意：GPU硬件（GPU裁剪器只能处理 方体（NDC））
+>3. 具体操作： 将Frustum远平面及远平面到近平面之间的所有平面挤压到近平面大小，
 变成Cuboid的样子，然后做一次正交投影
 
 ---
@@ -175,5 +178,6 @@ $$\boldsymbol{M_{persp}} = M_{ortho} \cdot M_{persp\rightarrow ortho}$$
 >     $$
 > 完整==透视投影==矩阵关系
 > $$M_{persp} = M_{ortho} \cdot M_{persp\rightarrow ortho}$$
+> $$ M_{persp}= \begin{bmatrix} \dfrac{2n}{r-l} & 0 & -\dfrac{r+l}{r-l} & 0\\[4pt] 0 & \dfrac{2n}{t-b} & -\dfrac{t+b}{t-b} & 0\\[4pt] 0 & 0 & \dfrac{n+f}{n-f} & -\dfrac{2nf}{n-f}\\[4pt] 0 & 0 & 1 & 0 \end{bmatrix} $$
 
 ---
