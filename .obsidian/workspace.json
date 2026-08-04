@@ -11,14 +11,12 @@
             "id": "ea685efa0af65b65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "learn_opengl/03_顶点输入.md",
-                "mode": "source",
-                "source": false
+                "file": "learn_shader/shader_5/images/Pasted image 20260804192512.png"
               },
-              "icon": "lucide-file",
-              "title": "03_顶点输入"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260804192512"
             }
           }
         ]
@@ -187,7 +185,15 @@
   },
   "active": "314b1b88dfdf6ed8",
   "lastOpenFiles": [
+    "learn_shader/shader_5/images/Pasted image 20260804163606.png",
+    "learn_shader/shader_5/images/Pasted image 20260804162856.png",
+    "learn_shader/shader_5/images/Pasted image 20260804162512.png",
+    "learn_shader/shader_5/shader_5.md",
+    "learn_shader/shader_5/images/Pasted image 20260804192512.png",
+    "learn_shader/shader_5/images",
+    "learn_shader/shader_5/images.md",
     "learn_shader/shader_4/shader_4.md",
+    "learn_shader/shader_5",
     "learn_opengl/02_绘制图形.md",
     "learn_opengl/03_顶点输入.md",
     "learn_opengl/images",
@@ -202,15 +208,11 @@
     "learn_shader/shader_3/images/Pasted image 20260731152439.png",
     "learn_shader/shader_4",
     "learn_shader/shader_3/images",
-    "learn_shader/shader_3/images/Pasted image 20260730160350.png",
-    "learn_shader/shader_3/images/Pasted image 20260730153849.png",
-    "learn_shader/shader_3/images/Pasted image 20260730110834.png",
     "learn_shader/shader_3",
     "learn_shader/shader_2/shader_2.md",
     "learn_shader/shader_1/shader_1.md",
     "learn_opengl",
     "README.md",
-    "learn_shader/shader_2/images",
-    "learn_shader/shader_2/images/Pasted image 20260729104629.png"
+    "learn_shader/shader_2/images"
   ]
 }
