@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn_shader/shader_6/shader_7.md",
+                "file": "learn_opengl/07_链接顶点属性.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shader_7"
+              "title": "07_链接顶点属性"
             }
           }
         ]
@@ -185,19 +185,25 @@
       "bases:新建数据库": false
     }
   },
-  "active": "314b1b88dfdf6ed8",
+  "active": "87fb5ce1d29419bc",
   "lastOpenFiles": [
+    "learn_opengl/06_片段着色器.md",
+    "learn_opengl/07_链接顶点属性.md",
+    "learn_opengl/02_绘制图形.md",
+    "learn_opengl/03_顶点输入.md",
+    "learn_opengl/01_入门.md",
+    "learn_opengl/05_编译着色器.md",
+    "learn_opengl/04_顶点着色器.md",
+    "learn_shader/shader_6/shader_6.md",
+    "learn_shader/shader_6/images/Pasted image 20260808105506.png",
+    "learn_shader/shader_6/images/Pasted image 20260808105326.png",
+    "learn_shader/shader_6/images/Pasted image 20260808104721.png",
     "learn_shader/shader_6/images/Pasted image 20260807172754.png",
     "learn_shader/shader_6/images/Pasted image 20260807172435.png",
     "learn_shader/shader_6/images/Pasted image 20260807171717.png",
-    "learn_opengl/06_片段着色器.md",
-    "learn_shader/shader_6/shader_7.md",
     "learn_shader/shader_6/images",
     "learn_shader/shader_6",
-    "learn_opengl/05_编译着色器.md",
     "learn_shader/shader_5/shader_5.md",
-    "learn_opengl/04_顶点着色器.md",
-    "learn_opengl/03_顶点输入.md",
     "learn_shader/shader_5/images/Pasted image 20260804192512.png",
     "learn_shader/shader_5/images/Pasted image 20260804163606.png",
     "learn_shader/shader_5/images/Pasted image 20260804162856.png",
@@ -206,14 +212,8 @@
     "learn_shader/shader_5/images.md",
     "learn_shader/shader_4/shader_4.md",
     "learn_shader/shader_5",
-    "learn_opengl/02_绘制图形.md",
     "learn_opengl/images",
-    "learn_opengl/images/Pasted image 20260803172644.png",
-    "learn_opengl/01_入门.md",
-    "learn_shader/shader_4/images/Pasted image 20260802112307.png",
-    "learn_shader/shader_4/images/Pasted image 20260802113119.png",
     "learn_shader/shader_4/images",
-    "learn_shader/shader_4/images/Pasted image 20260802113037.png",
     "learn_shader/shader_3/shader_3.md",
     "learn_shader/shader_4",
     "learn_shader/shader_3/images",
